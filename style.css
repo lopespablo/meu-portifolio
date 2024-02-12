@@ -1,18 +1,68 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
     height: 98vh;
+    font-family: ;
+   
 }
 
-header .interface{
+header{
+    padding: 40px 4%;
+    background-color: rgb(28, 99, 0) ; 
+    height: 120px;
+}
+
+.interface {
+    max-height: 1280px;
+    margin: 0 auto;
+}
+
+header > .interface{
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-.sites{
+header .texto h1 {
+    font-family: 'Bebas Neue', sans-serif;;
+    padding: 2px 0 ;
+}
+
+header .texto h1:hover{
+    filter: drop-shadow(0px 0px 3px white);
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.texto .line{
+    color:rgb(255, 255, 255) ;
+    line-height: 1px;
+}
+
+.texto h1{
+    color:rgb(255, 255, 255) ;
+
+}
+
+header nav ul li{
     display: inline-block;
+    list-style-type: none;
+}
+
+header a {
+    display: inline-block;
+    text-decoration: none;
+    color: rgba(255, 248, 248, 0.596);
+    padding: 0 16px;
+    transition: .2s;
+    
+}
+
+header a:hover{
+    color: white;
+    transform: scale(1.05);
 }
