@@ -110,14 +110,14 @@ header a:hover{
     padding-left: 20px;
 }
 
-@media screen and (max-width:523px) {
+@media screen and (max-width:691px) {
 
     header{
         padding: 20px 4%;
     }
 
 
-    header nav ul{
+    header nav ul li{
         padding-top: 10px;
     }
 
@@ -131,8 +131,25 @@ header a:hover{
         flex-direction: column-reverse;
     }
 
-    .conteudo .conteudoimg img{
-        padding-left: 0px;
+}
+
+@media  screen and (max-width:372px) {
+    header > .interface{
+       height: 100px; 
     }
 
+    header nav{
+        height: 80px;
+    }
+
+    header nav ul {
+        display: flex;
+    }
+
+   header a{
+        font-size: 10px;
+        padding-top: 30px;
+        display: flex;
+    }
+    
 }
