@@ -11,12 +11,13 @@
 
 body {
     height: 98vh;
-    font-family: ;
+    background-color: white;
+    padding-top: 40px;
    
 }
 
 header{
-    padding: 40px 4%;
+    padding: 30px 4%;
     background-color: rgb(28, 99, 0) ; 
     height: 120px;
 }
@@ -82,9 +83,6 @@ main > .conteudo{
     gap: 40px;
 }
 
-.conteudo .conteudotxt{
-    min-width: 150px;
-}
 
 
 .conteudotxt > h1{
@@ -106,6 +104,28 @@ main > .conteudo{
     padding-left: 20px;
 }
 
-@media screen {
+@media screen and (max-width:500px) {
+
+    header{
+        padding: 20px 4%;
+    }
+
+    header nav ul{
+        padding-top: 10px;
+    }
+
+    header nav ul li{
+        display: flex;
     
+    }
+
+    main > .conteudo{
+        flex-direction: column-reverse;
+        
+    }
+
+    .conteudo .conteudoimg img{
+        padding-left: 0px;
+    }
+
 }
