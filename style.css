@@ -96,7 +96,12 @@ main > .conteudo{
     padding-top: 20px;
 }
 
+.conteudo{
+    margin: 0 30px;
+}
+
 .conteudo .conteudoimg img{
     height: 250px;
     border-radius: 20%;
+    padding-left: 20px;
 }
