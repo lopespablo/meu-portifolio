@@ -81,13 +81,12 @@ header a:hover{
     transform: scale(1.05);
 }
 
-main > .conteudo{
+.conteudo .flex{
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    flex-direction: ;
-    padding: 40px;
-    gap: 40px;
+    justify-content: center;
+    padding: 40px 50px;
+    gap: 80px;
 }
 
 
@@ -111,25 +110,25 @@ main > .conteudo{
     padding-left: 20px;
 }
 
-@media screen and (max-width:1000px) {
+@media screen and (max-width:523px) {
 
     header{
         padding: 20px 4%;
     }
 
+
     header nav ul{
-        
         padding-top: 10px;
     }
 
-    header nav ul li{
-        display: flex;
-    
+    header a{
+        font-size: 12px;
+        padding-top: 60px;
     }
 
-    main > .conteudo{
+
+    .conteudo .flex{
         flex-direction: column-reverse;
-        
     }
 
     .conteudo .conteudoimg img{
