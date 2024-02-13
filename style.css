@@ -49,6 +49,12 @@ header .texto h1:hover{
     line-height: 1px;
 }
 
+header .texto .line:hover{
+    filter: drop-shadow(0px 0px 3px white);
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
 .texto h1{
     color:rgb(255, 255, 255) ;
 
@@ -111,6 +117,7 @@ main > .conteudo{
     }
 
     header nav ul{
+        
         padding-top: 10px;
     }
 
