@@ -111,7 +111,7 @@ main > .conteudo{
     padding-left: 20px;
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:1000px) {
 
     header{
         padding: 20px 4%;
