@@ -114,15 +114,27 @@ header a:hover{
     header{
         padding: 20px 4%;
     }
+    
+    header .interface{
+        flex-direction: column;
+    }
+    
+    header .texto {
+        padding-bottom:25px ;
+        
+    }
 
 
     header nav ul li{
-        padding-top: 10px;
+        height: 30px;
+
     }
+
 
     header a{
         font-size: 12px;
-        padding-top: 60px;
+        color: rgb(255, 255, 255);
+        
     }
 
 
@@ -144,6 +156,7 @@ header a:hover{
     header nav ul {
         display: flex;
     }
+
 
    header a{
         font-size: 10px;
