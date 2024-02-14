@@ -84,9 +84,9 @@ header a:hover{
 .conteudo .flex{
     display: flex;
     align-items: center;
-    justify-content: center;
     padding: 40px 50px;
     gap: 80px;
+    margin: 0 30px;
 }
 
 
@@ -100,14 +100,13 @@ header a:hover{
     padding-top: 20px;
 }
 
-.conteudo{
-    margin: 0 30px;
-}
 
 .conteudo .conteudoimg img{
+    display: flex; 
     height: 250px;
     border-radius: 20%;
-    padding-left: 20px;
+    
+    
 }
 
 @media screen and (max-width:691px) {
