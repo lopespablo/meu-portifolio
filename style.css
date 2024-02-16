@@ -20,9 +20,11 @@ body {
 }
 
 header{
-    padding: 30px 4%;
+    width: 100%;
+    padding: 40px 4%;
     background-color: rgb(28, 99, 0) ; 
     height: 120px;
+    position: fixed;
 }
 
 .interface {
@@ -83,15 +85,18 @@ header a:hover{
     transform: scale(1.05);
 }
 
+
 .conteudo{
-    padding: 40px 50px;
+    padding: 0px 4%;
+
 
 }
 
 .flex{
     display: flex;
-    align-items: center;
+    align-items: center; 
     gap: 80px;
+    padding-top: 190px;
 }
 
 
@@ -126,7 +131,7 @@ section.meio .caixabox:hover{
 }
 
 section.meio .flex{
-    margin-top: 50px;
+    margin-top: 0px;
 }
 
 .caixabox i{
